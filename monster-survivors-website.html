@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Action Packed Survival Game | GamesForAsh</title>
+    <meta name="description" content="Play Monster Survivors online - an intense survival game where you battle endless waves of monsters with unique abilities and weapons.">
+    <link rel="canonical" href="https://gamesforash.org/monster-survivors">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --apple-blue: #007AFF;
+            --apple-green: #34C759;
+            --apple-orange: #FF9500;
+            --apple-red: #FF3B30;
+            --apple-gray: #8E8E93;
+            --apple-light-gray: #F2F2F7;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: var(--apple-light-gray);
+            color: #1D1D1F;
+        }
+        
+        .btn-primary {
+            background-color: var(--apple-blue);
+            color: white;
+            transition: all 0.2s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: #0062CC;
+            transform: scale(1.03);
+        }
+        
+        .game-container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .accent-text {
+            color: var(--apple-blue);
+        }
+        
+        .game-feature {
+            border-left: 3px solid var(--apple-blue);
+        }
+        
+        @media (max-width: 768px) {
+            .game-iframe {
+                height: 400px !important;
+            }
+        }
+        
+        @media (max-width: 640px) {
+            .game-iframe {
+                height: 300px !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+            <div class="flex items-center mb-4 md:mb-0">
+                <a href="https://gamesforash.org" class="text-2xl font-bold" style="color: var(--apple-blue);">GamesForAsh</a>
+            </div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="https://gamesforash.org" class="hover:text-blue-600">Home</a></li>
+                    <li><a href="https://gamesforash.org/games" class="hover:text-blue-600">Games</a></li>
+                    <li><a href="https://gamesforash.org/about" class="hover:text-blue-600">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Monster Survivors</h1>
+            <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">Survive endless waves of monsters in this thrilling action-packed adventure!</p>
+        </section>
+
+        <section class="game-container p-4 md:p-8 mb-12">
+            <div class="relative overflow-hidden rounded-lg shadow-lg">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                    class="game-iframe w-full"
+                    style="height: 600px;"
+                    frameborder="0" 
+                    allowfullscreen
+                    title="Play Monster Survivors Online"
+                    loading="lazy">
+                </iframe>
+            </div>
+            
+            <div class="mt-6 text-center">
+                <button class="btn-primary px-8 py-3 rounded-full font-semibold text-lg">Play Fullscreen</button>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6">Game Overview</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <p class="text-lg mb-4">
+                    Monster Survivors is an intense survival action game where you must fend off endless waves of monsters. 
+                    Choose your character, upgrade your abilities, and see how long you can last against the increasingly difficult hordes.
+                </p>
+                <p class="text-lg">
+                    With intuitive controls and fast-paced gameplay, Monster Survivors offers a challenging experience for both casual and hardcore gamers alike. 
+                    Collect power-ups, unlock new weapons, and develop strategies to overcome the monster invasion!
+                </p>
+            </div>
+        </section>
+
+        <section class="mb-12 grid md:grid-cols-2 gap-8">
+            <div>
+                <h2 class="text-2xl font-bold mb-4">Game Features</h2>
+                <ul class="space-y-4">
+                    <li class="game-feature pl-4 py-2">
+                        <span class="font-semibold">Multiple Characters:</span> Choose from a variety of unique characters, each with special abilities.
+                    </li>
+                    <li class="game-feature pl-4 py-2">
+                        <span class="font-semibold">Weapon Upgrades:</span> Collect and enhance different weapons to increase your survival chances.
+                    </li>
+                    <li class="game-feature pl-4 py-2">
+                        <span class="font-semibold">Endless Gameplay:</span> Test your skills against infinite waves of increasingly difficult monsters.
+                    </li>
+                    <li class="game-feature pl-4 py-2">
+                        <span class="font-semibold">Power-ups:</span> Find and utilize special items that provide temporary boosts and abilities.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="text-2xl font-bold mb-4">How to Play</h2>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <p class="mb-4">
+                        <span class="font-semibold accent-text">Movement:</span> Use WASD or arrow keys to move your character.
+                    </p>
+                    <p class="mb-4">
+                        <span class="font-semibold accent-text">Attacks:</span> Your character attacks automatically when monsters are in range.
+                    </p>
+                    <p class="mb-4">
+                        <span class="font-semibold accent-text">Level Up:</span> Collect experience orbs to level up and choose new abilities.
+                    </p>
+                    <p>
+                        <span class="font-semibold accent-text">Strategy:</span> Keep moving and collect power-ups to survive as long as possible!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold mb-4">System Requirements</h2>
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="font-semibold mb-2">Minimum Requirements:</h3>
+                        <ul class="space-y-2">
+                            <li>• Modern web browser (Chrome, Firefox, Safari, Edge)</li>
+                            <li>• Stable internet connection</li>
+                            <li>• 2GB RAM</li>
+                            <li>• Any modern CPU/GPU capable of WebGL</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-2">Recommended Experience:</h3>
+                        <ul class="space-y-2">
+                            <li>• Latest Chrome or Firefox browser</li>
+                            <li>• 4GB RAM or more</li>
+                            <li>• High-speed internet connection</li>
+                            <li>• Desktop or laptop for optimal gameplay</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">GamesForAsh</h3>
+                    <p>Your destination for free online games and entertainment.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">Home</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Games</a></li>
+                        <li><a href="#" class="hover:text-blue-300">About</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Legal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-blue-300">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-blue-300">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+                <p>© 2025 GamesForAsh.org - All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic script to handle fullscreen functionality
+        document.querySelector('.btn-primary').addEventListener('click', function() {
+            const iframe = document.querySelector('.game-iframe');
+            if (iframe.requestFullscreen) {
+                iframe.requestFullscreen();
+            } else if (iframe.webkitRequestFullscreen) {
+                iframe.webkitRequestFullscreen();
+            } else if (iframe.msRequestFullscreen) {
+                iframe.msRequestFullscreen();
+            }
+        });
+    </script>
+</body>
+</html>
